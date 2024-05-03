@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExercisePage">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#135D66"
+        android:padding="8sp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meditation And Exercise"
+        android:gravity="center"
+        android:padding="20sp"
+        android:textSize="30sp">
+    </TextView>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/yoga" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise is a versatile practice that can help in various situations. When you're feeling anxious and low, gentle exercise poses combined with deep breathing can be beneficial. Consider the following yoga poses"
+        android:gravity="center"
+        android:padding="10sp"
+        android:textSize="15sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercises"
+        android:gravity="center"
+        android:padding="0sp"
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/etExercise"
+        android:paddingHorizontal="30sp"
+        android:paddingVertical="10sp"
+        android:text=""
+        android:textSize="15sp">
+    </TextView>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/meditation" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meditation is an effective way to calm the mind and reduce feelings of anxiety and low mood. Here are some meditation techniques you can try"
+        android:gravity="center"
+        android:padding="10sp"
+        android:textSize="15sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meditations"
+        android:gravity="center"
+        android:padding="0sp"
+        android:textSize="25sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/etMeditation"
+        android:paddingHorizontal="30sp"
+        android:paddingVertical="10sp"
+        android:text=""
+        android:textSize="15sp">
+    </TextView>
+</LinearLayout>
+</ScrollView>

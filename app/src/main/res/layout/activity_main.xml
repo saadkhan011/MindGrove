@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#135D66"
+        android:padding="8sp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginVertical="10sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#135D66"
+        android:text="Mind Grove"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MindGrove provide a full mental health software that helps users with guided meditation, stress alleviation activities, community function, and mood tracking"
+        android:padding="10sp"
+        android:textColor="#77B0AA"
+        android:gravity="center"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingStart="20sp"
+        android:paddingVertical="10sp"
+        android:id="@+id/guidedMeditation"
+        android:background="@drawable/rounded_button_bg"
+>
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/dumbbell_solid"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guided Meditation and Stress-Relief Exercises"
+            android:textColor="#003C43"
+            android:textSize="15sp"
+            android:paddingHorizontal="10sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingStart="20sp"
+        android:id="@+id/moodTracking"
+        android:paddingVertical="10sp"
+        android:background="@drawable/rounded_button_bg"
+        >
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/seedling_solid"
+            android:onClick="onButtonClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mood Tracking"
+            android:textColor="#003C43"
+            android:textSize="15sp"
+            android:paddingHorizontal="10sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/communitySupport"
+        android:paddingStart="20sp"
+        android:paddingVertical="10sp"
+        android:background="@drawable/rounded_button_bg"
+        >
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/user_group_solid"
+            android:onClick="onButtonClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community Support Groups"
+            android:textColor="#003C43"
+            android:textSize="15sp"
+            android:paddingHorizontal="10sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingStart="20sp"
+        android:paddingVertical="10sp"
+        android:id="@+id/wellnessPlan"
+        android:background="@drawable/rounded_button_bg"
+        >
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/route_solid"
+            android:onClick="onButtonClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personalized Wellness Plan"
+            android:textColor="#003C43"
+            android:textSize="15sp"
+            android:paddingHorizontal="10sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:paddingStart="20sp"
+        android:paddingVertical="10sp"
+        android:id="@+id/virtualWorkshop"
+        android:background="@drawable/rounded_button_bg"
+        >
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/compass_solid"
+            android:onClick="onButtonClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Virtual Wellness Workshops"
+            android:textColor="#003C43"
+            android:textSize="15sp"
+            android:paddingHorizontal="10sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

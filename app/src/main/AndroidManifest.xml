@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MindGrove"
+        tools:targetApi="31">
+        <activity
+            android:name=".RegisterWorkshop"
+            android:exported="false" />
+        <activity
+            android:name=".CreateWorkshop"
+            android:exported="false" />
+        <activity
+            android:name=".WellnessWorkshop"
+            android:exported="false" />
+        <activity
+            android:name=".WellnessPlanPage"
+            android:exported="false" />
+        <activity
+            android:name=".DietaryPreferences"
+            android:exported="false" />
+        <activity
+            android:name=".PreferredWorkout"
+            android:exported="false" />
+        <activity
+            android:name=".WellnessGoals"
+            android:exported="false" />
+        <activity
+            android:name=".WellnessPlan"
+            android:exported="false" />
+        <activity
+            android:name=".CommunityPage"
+            android:exported="false" />
+        <activity
+            android:name=".CommunitSupportGroup"
+            android:exported="false" />
+        <activity
+            android:name=".PreviousMood"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationAndExercise"
+            android:exported="false" />
+        <activity
+            android:name=".MoodPage"
+            android:exported="false" />
+        <activity
+            android:name=".MoodTracking"
+            android:exported="false" />
+        <activity
+            android:name=".ExercisePage"
+            android:exported="false" />
+        <activity
+            android:name=".GuidedMeditation"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

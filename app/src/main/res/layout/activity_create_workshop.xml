@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CreateWorkshop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#135D66"
+                android:padding="8sp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_marginVertical="10sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#135D66"
+                android:text="Virtual Wellness Workshops"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speaker Name"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTextSpeakerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="Enter speaker's name"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workshop Date"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTextWorkshopDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Select workshop date"
+                    android:layout_marginBottom="10sp"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workshop Start Time"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTextWorkshopStartTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="Select workshop start time"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workshop End Time"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTextWorkshopEndTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="Select workshop end time"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workshop Topic"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTextWorkshopTopic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="Enter workshop topic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workshop Goals"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTextWorkshopGoals"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10sp"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter workshop goals"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workshop Link"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTextWorkshopLink"
+                    android:layout_marginBottom="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter workshop link"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#135D66"
+                android:text="Create Workshop"
+                android:layout_margin="15sp"
+                android:id="@+id/submitWorkshopFormButton"
+                android:layout_gravity="end">
+            </Button>
+        </LinearLayout>
+    </ScrollView>
